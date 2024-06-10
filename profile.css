@@ -1,0 +1,103 @@
+.pic{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+
+}
+.img {
+    margin: 120px;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+
+}
+.pic h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+    
+}
+.pic h1 span{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}.pic p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.action{
+    display:  flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+.connect{
+    align-items: left;
+    font-size: 18;
+    font-weight: 600;
+    background: linear-gradient(264deg,#DF8908 -5.09%, #B415FF 100%);
+    padding: 20px 50px;
+    border-radius: 50px;
+    list-style: none;
+
+    cursor: pointer;
+}
+.resume{
+    
+    padding: 25px 70px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.connect:hover{
+    border:2px solid white;
+
+}
+.resume:hover{
+    border: #B415FF;
+}
+@media(max-width:768px){
+    .img{
+        margin-top: 120px;
+        width: 260px;
+
+    }
+    .pic h1{
+        margin-top: 50px;
+        width: 90px;
+        font-size: 50px;
+
+    }
+    .pic p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+
+    }
+    .action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+
+}
+
+}
